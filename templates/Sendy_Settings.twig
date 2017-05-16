@@ -1,0 +1,53 @@
+{#
+/**
+ * Sendy plugin for Craft CMS
+ *
+ * Sendy Settings.twig
+ *
+ * @author    Superbig
+ * @copyright Copyright (c) 2017 Superbig
+ * @link      https://superbig.co
+ * @package   Sendy
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'Installation URL',
+    instructions: 'Where Sendy is installed',
+    id: 'installationUrl',
+    name: 'installationUrl',
+    value: settings['installationUrl']})
+}}
+
+{{ forms.textField({
+    label: 'API key',
+    instructions: 'Where Sendy is installed',
+    id: 'apiKey',
+    name: 'apiKey',
+    value: settings['apiKey']})
+}}
+
+{{ forms.textField({
+    label: 'Default list ID',
+    instructions: '',
+    id: 'defaultListId',
+    name: 'defaultListId',
+    value: settings['defaultListId']})
+}}
+
+{#
+{{ forms.editableTableField({
+    label: 'Custom fields',
+    instructions: 'Map your custom fields',
+    id:     'typeArguments',
+    name:   'typeArguments',
+    cols: [
+    { 'heading' : 'Key', type: 'singleline' },
+    { 'heading' : 'Value', type: 'singleline' },
+    ],
+    rows: settings.typeArguments
+}) }}
+#}

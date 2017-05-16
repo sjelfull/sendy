@@ -1,0 +1,15 @@
+{
+	"name": "sjelfull/sendy",
+	"description": "Send newsletters, 100x cheaper",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Superbig",
+			"homepage": "https://superbig.co"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"jiririedl/php-sendy": "^2.0"
+	}
+}
