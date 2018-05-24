@@ -2,6 +2,8 @@
 
 Send newsletters, 100x cheaper
 
+_This is a WIP verison, and is not ready for production use._
+
 ![Screenshot](resources/icon.png)
 
 ## Installation
